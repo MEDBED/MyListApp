@@ -9,13 +9,15 @@ import {UsersComponent} from './users/users.component';
 import {DetailsComponent} from './details/details.component';
 
 import {HttpClientModule} from '@angular/common/http';
+// Other imports removed for brevity
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent, SidebarComponent, PostsComponent, UsersComponent, DetailsComponent
   ],
   imports: [
-    BrowserModule, AppRoutingModule, HttpClientModule
+    BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
